@@ -1,6 +1,5 @@
 from time import sleep
 import random
-from os import system
 
 class Hero:
 
@@ -313,10 +312,9 @@ class Game:
 					return False
 
 	def clear(self):
-		system("cls")
+		print("\n"*100)
 
 def main():
-	system("color a")
 	game = Main()
 	game.start()
 
